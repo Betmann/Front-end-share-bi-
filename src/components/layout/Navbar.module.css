@@ -1,0 +1,62 @@
+/* */
+
+.logo {
+    margin-top: 1px;  /* Adds a top margin of 1px to the logo */
+    height: 160px;  /* Sets the height of the logo to 160px */
+}
+
+.nav {
+    width: 100%;  /* Sets the width of the navigation bar to 100% of its container */
+    height: 77px;  /* Sets the height of the navigation bar to 77px */
+    display: flex;  /* Uses flexbox layout for the navigation bar */
+    align-items: center;  /* Aligns items vertically at the center */
+    justify-content: space-between;  /* Distributes space evenly between items */
+    box-shadow: 0px 0px 10px rgba(39, 37, 37, 0.4);  /* Adds a shadow around the navigation bar */
+}
+
+.user {
+    font-size: 14px;  /* Sets the font size for user text to 14px */
+    font-weight: 530;  /* Sets the font weight for user text */
+    display: flex;  /* Uses flexbox layout for user section */
+    align-items: center;  /* Aligns items vertically at the center */
+    margin-left: auto;  /* Pushes the user section to the right */
+    margin-right: 40px;  /* Adds a right margin of 40px */
+}
+
+.user p {
+    margin: 0;  /* Removes default margin from paragraphs */
+    display: flex;  /* Uses flexbox layout for paragraphs */
+    justify-content: flex-end;  /* Aligns paragraph text to the end */
+}
+
+.user img {
+    height: 40px;  /* Sets the height of the user image to 40px */
+    margin-left: 10px;  /* Adds a left margin of 10px to the image */
+}
+
+.area {
+    font-size: 9px;  /* Sets the font size for the area text to 9px */
+}
+
+.supergraphic {
+    width: 100%;  /* Sets the width to 100% of its container */
+    height: 30px;  /* Sets the height to 30px */
+}
+
+.sharebi img {
+    margin-top: 5px;  /* Adds a top margin of 5px to the Sharebi image */
+    margin-right: 60px;  /* Adds a right margin of 60px to the Sharebi image */
+    height: 29px;  /* Sets the height of the Sharebi image to 29px */
+}
+
+@media screen and (max-width: 600px) {
+    .sharebi {
+        display: none;  /* Hides the Sharebi section on small screens */
+    }
+    .logo {
+        height: 140px;  /* Sets the height of the logo to 140px on small screens */
+    }
+    .user {
+        margin-right: 5px;  /* Reduces the right margin to 5px on small screens */
+    }
+}

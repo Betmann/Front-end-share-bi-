@@ -1,0 +1,237 @@
+/* This CSS resets default margins and paddings, and sets box-sizing to border-box for all elements. 
+   Isso redefine margens e preenchimentos padrão e define box-sizing como border-box para todos os elementos.
+   Este CSS restablece los márgenes y rellenos predeterminados, y establece box-sizing en border-box para todos los elementos.
+   Dieser CSS-Code setzt die Standardränder und -abstände zurück und setzt das box-sizing für alle Elemente auf border-box. */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* This sets the default font family for the body element to Arial, Helvetica, or sans-serif.
+     Isso define a família de fontes padrão para o elemento body como Arial, Helvetica ou sans-serif.
+     Esto establece la familia de fuentes predeterminada para el elemento body a Arial, Helvetica o sans-serif.
+     Dies setzt die Standard-Schriftfamilie für das body-Element auf Arial, Helvetica oder sans-serif. */
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* This styles paragraph text to be black and sets a margin-bottom of 7px.
+     Isso estiliza o texto dos parágrafos para ser preto e define uma margem inferior de 7px.
+     Esto estiliza el texto de los párrafos para que sea negro y establece un margen inferior de 7px.
+     Dies gestaltet den Text von Absätzen schwarz und setzt einen unteren Rand von 7px. */
+  p {
+    color: black;
+    margin-bottom: 7px;
+  }
+  
+  /* This styles the container to have a minimum height of 85vh, centers content flexibly, 
+     sets the background color to white, text color, font size, padding, and centers text.
+     Isso estiliza o container para ter uma altura mínima de 85vh, centraliza o conteúdo de forma flexível,
+     define a cor de fundo como branco, cor do texto, tamanho da fonte, preenchimento e centraliza o texto.
+     Esto estiliza el contenedor para tener una altura mínima de 85vh, centra el contenido de manera flexible,
+     establece el color de fondo como blanco, el color del texto, el tamaño de la fuente, el relleno y centra el texto.
+     Dies gestaltet den Container so, dass er eine Mindesthöhe von 85vh hat, den Inhalt flexibel zentriert,
+     die Hintergrundfarbe auf weiß setzt, Textfarbe, Schriftgröße, Polsterung und zentriert den Text. */
+  .container {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #5c5656b7;
+    font-size: 12px;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  /* This styles the content area with a white background, specific dimensions, padding, border radius, 
+     box shadow, and margin for top and bottom spacing.
+     Isso estiliza a área de conteúdo com fundo branco, dimensões específicas, preenchimento, raio de borda,
+     sombra da caixa e margem para espaçamento superior e inferior.
+     Esto estiliza el área de contenido con un fondo blanco, dimensiones específicas, relleno, radio de borde,
+     sombra de caja y margen para el espaciado superior e inferior.
+     Dies gestaltet den Inhaltsbereich mit einem weißen Hintergrund, spezifischen Abmessungen, Polsterung, Eckradius,
+     Box-Schatten und Rand für oberen und unteren Abstand. */
+  .content{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 1000px;
+    height: 435px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(39, 37, 37, 0.4);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* This styles the title to have a margin-bottom of 14px.
+     Isso estiliza o título para ter uma margem inferior de 14px.
+     Esto estiliza el título para que tenga un margen inferior de 14px.
+     Dies gestaltet den Titel so, dass er einen unteren Rand von 14px hat. */
+  .title {
+    margin-bottom: 14px;
+  }
+  
+  /* This styles the form to have a max width, flexible column layout, padding, gap between elements, 
+     and a bottom margin.
+     Isso estiliza o formulário para ter uma largura máxima, layout de coluna flexível, preenchimento, espaço entre elementos,
+     e uma margem inferior.
+     Esto estiliza el formulario para que tenga un ancho máximo, diseño de columna flexible, relleno, espacio entre elementos,
+     y un margen inferior.
+     Dies gestaltet das Formular so, dass es eine maximale Breite, flexibles Spaltenlayout, Polsterung, Abstand zwischen den Elementen,
+     und einen unteren Rand hat. */
+  .form {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20%;
+    margin-bottom: 20px;
+  }
+  
+  /* This styles input fields with a bottom margin, height, full width, border radius, 
+     no border, padding, and a specific border style.
+     Isso estiliza os campos de entrada com uma margem inferior, altura, largura total, raio de borda,
+     sem borda, preenchimento e um estilo de borda específico.
+     Esto estiliza los campos de entrada con un margen inferior, altura, ancho completo, radio de borde,
+     sin borde, relleno y un estilo de borde específico.
+     Dies gestaltet Eingabefelder mit einem unteren Rand, Höhe, voller Breite, Eckradius,
+     ohne Rand, Polsterung und einem bestimmten Randstil. */
+  .input {
+    margin-bottom: 14px;
+    height: 34px;
+    width: 100%;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  
+  /* This styles textarea fields with a bottom margin, border radius, no border, 
+     padding, height, no resize option, and a specific border style.
+     Isso estiliza os campos de textarea com uma margem inferior, raio de borda, sem borda,
+     preenchimento, altura, sem opção de redimensionamento e um estilo de borda específico.
+     Esto estiliza los campos de textarea con un margen inferior, radio de borde, sin borde,
+     relleno, altura, sin opción de redimensionar y un estilo de borde específico.
+     Dies gestaltet Textbereichsfelder mit einem unteren Rand, Eckradius, ohne Rand,
+     Polsterung, Höhe, ohne Resize-Option und einem bestimmten Randstil. */
+  .textarea {
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px;
+    height: 94px;
+    resize: none;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  
+  /* This styles the submit button with specific height, width, no border, cursor style,
+     background color, font size, and text color.
+     Isso estiliza o botão de envio com altura específica, largura, sem borda, estilo de cursor,
+     cor de fundo, tamanho da fonte e cor do texto.
+     Esto estiliza el botón de enviar con altura específica, ancho, sin borde, estilo de cursor,
+     color de fondo, tamaño de fuente y color de texto.
+     Dies gestaltet den Senden-Button mit spezifischer Höhe, Breite, ohne Rand, Cursor-Stil,
+     Hintergrundfarbe, Schriftgröße und Textfarbe. */
+  .button {
+    height: 38px;
+    width: 80px;
+    border: 0;
+    cursor: pointer;
+    background-color: #007BC0;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  
+  /* This styles the input group to be a flex container with space between items and a gap.
+     Isso estiliza o grupo de entrada para ser um contêiner flex com espaço entre os itens e um espaço.
+     Esto estiliza el grupo de entrada para que sea un contenedor flexible con espacio entre elementos y un espacio.
+     Dies gestaltet die Eingabegruppe als Flex-Container mit Abstand zwischen den Elementen und einer Lücke. */
+  .input_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* This styles elements to take up half the width of their container and aligns text to the start.
+     Isso estiliza elementos para ocupar metade da largura do contêiner e alinha o texto ao início.
+     Esto estiliza elementos para ocupar la mitad del ancho del contenedor y alinea el texto al inicio.
+     Dies gestaltet Elemente so, dass sie die Hälfte der Breite ihres Containers einnehmen und den Text am Anfang ausrichten. */
+  .half_width {
+    width: 50%;
+    text-align: start;
+  }
+  
+  /* This styles elements to take up a third of the width of their container and aligns text to the start.
+     Isso estiliza elementos para ocupar um terço da largura do contêiner e alinha o texto ao início.
+     Esto estiliza elementos para ocupar un tercio del ancho del contenedor y alinea el texto al inicio.
+     Dies gestaltet Elemente so, dass sie ein Drittel der Breite ihres Containers einnehmen und den Text am Anfang ausrichten. */
+  .third_width {
+    width: calc(33.33% - 10px);
+    text-align: start;
+  }
+  
+  /* This styles input elements within input groups to take up the full width of their container.
+     Isso estiliza elementos de entrada dentro de grupos de entrada para ocupar toda a largura do contêiner.
+     Esto estiliza elementos de entrada dentro de grupos de entrada para ocupar todo el ancho del contenedor.
+     Dies gestaltet Eingabeelemente innerhalb von Eingabegruppen so, dass sie die volle Breite ihres Containers einnehmen. */
+  .input_group .input {
+    width: 100%;
+  }
+  
+  /* This styles elements to take up two-thirds of the width of their container and aligns text to the start.
+     Isso estiliza elementos para ocupar dois terços da largura do contêiner e alinha o texto ao início.
+     Esto estiliza elementos para ocupar dos tercios del ancho del contenedor y alinea el texto al inicio.
+     Dies gestaltet Elemente so, dass sie zwei Drittel der Breite ihres Containers einnehmen und den Text am Anfang ausrichten. */
+  .half-width-third{
+    width: 66%;
+    text-align: start;
+  }
+  
+  /* This styles the description project area to take up the full width of its container and aligns text to the start.
+     Isso estiliza a área de descrição do projeto para ocupar toda a largura do contêiner e alinha o texto ao início.
+     Esto estiliza el área de descripción del proyecto para ocupar todo el ancho del contenedor y alinea el texto al inicio.
+     Dies gestaltet den Projektbeschreibungsbereich so, dass er die volle Breite seines Containers einnimmt und den Text am Anfang ausrichtet. */
+  .description_project{
+    width: 100%;
+    text-align: start;
+  }
+  
+  /* This sets the width and font family of all textarea elements to be consistent.
+     Isso define a largura e a família de fontes de todos os elementos textarea para serem consistentes.
+     Esto establece el ancho y la familia de fuentes de todos los elementos textarea para ser consistentes.
+     Dies setzt die Breite und Schriftfamilie aller Textbereichselemente konsistent. */
+  textarea{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* This applies styles for screens with a maximum width of 530px, making the content height auto, 
+     wrapping input groups, and setting input widths to 100%.
+     Isso aplica estilos para telas com largura máxima de 530px, tornando a altura do conteúdo automática,
+     quebrando grupos de entrada e definindo larguras de entrada para 100%.
+     Esto aplica estilos para pantallas con un ancho máximo de 530px, haciendo que la altura del contenido sea automática,
+     envolviendo grupos de entrada y configurando anchos de entrada al 100%.
+     Dies wendet Stile für Bildschirme mit einer maximalen Breite von 530px an, macht die Inhaltshöhe automatisch,
+     umschließt Eingabegruppen und setzt Eingabebreiten auf 100%. */
+  @media screen and (max-width: 530px) {
+    .content {
+      height: 100%; 
+    }
+    .input_group{
+      flex-wrap: wrap;
+    }
+    .half_width-third{
+      width: 100%;
+    }
+    .third_width{
+      width: 100%;
+    }
+    .half_width{
+      width: 100%;
+    }
+  }
+  

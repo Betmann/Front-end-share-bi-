@@ -1,0 +1,124 @@
+/* English: The universal selector removes default margin and padding from all elements and sets the box-sizing property to border-box. */
+/* Portuguese: O seletor universal remove a margem e o preenchimento padrão de todos os elementos e define a propriedade box-sizing como border-box. */
+/* Spanish: El selector universal elimina el margen y el relleno predeterminados de todos los elementos y establece la propiedad box-sizing en border-box. */
+/* German: Der universelle Selektor entfernt den Standardabstand und die Standardauffüllung von allen Elementen und setzt die Eigenschaft box-sizing auf border-box. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* English: The body element uses the Arial, Helvetica, sans-serif font, displays flexbox, and ensures minimum height is 100vh. */
+/* Portuguese: O elemento body usa a fonte Arial, Helvetica, sans-serif, exibe flexbox e garante que a altura mínima seja de 100vh. */
+/* Spanish: El elemento body usa la fuente Arial, Helvetica, sans-serif, muestra flexbox y asegura que la altura mínima sea de 100vh. */
+/* German: Das body-Element verwendet die Schriftarten Arial, Helvetica, sans-serif, zeigt Flexbox an und stellt sicher, dass die Mindesthöhe 100vh beträgt. */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* English: The container class styles the flex container to center its content both horizontally and vertically with a white background, specific text color, font size, padding, and text alignment. */
+/* Portuguese: A classe container estiliza o contêiner flex para centralizar seu conteúdo tanto horizontalmente quanto verticalmente com fundo branco, cor de texto específica, tamanho de fonte, preenchimento e alinhamento de texto. */
+/* Spanish: La clase container estiliza el contenedor flex para centrar su contenido tanto horizontal como verticalmente con un fondo blanco, color de texto específico, tamaño de fuente, relleno y alineación del texto. */
+/* German: Die Klasse container gestaltet den Flex-Container so, dass sein Inhalt sowohl horizontal als auch vertikal zentriert wird, mit weißem Hintergrund, spezifischer Textfarbe, Schriftgröße, Polsterung und Textausrichtung. */
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #5c5656b7;
+  font-size: 12px;
+  padding: 14px;
+  text-align: center;
+}
+
+/* English: The content class styles the content area with a white background, specific width, padding, border-radius, and box-shadow. */
+/* Portuguese: A classe content estiliza a área de conteúdo com fundo branco, largura específica, preenchimento, bordas arredondadas e sombra. */
+/* Spanish: La clase content estiliza el área de contenido con un fondo blanco, ancho específico, relleno, bordes redondeados y sombra. */
+/* German: Die Klasse content gestaltet den Inhaltsbereich mit weißem Hintergrund, spezifischer Breite, Polsterung, abgerundeten Ecken und Schatten. */
+
+.content {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(39, 37, 37, 0.4);
+}
+
+/* English: The footer element styles with font size, padding, border-top, text alignment, flexbox display, spacing, height, and width properties. */
+/* Portuguese: O elemento footer é estilizado com tamanho de fonte, preenchimento, borda superior, alinhamento de texto, exibição flexbox, espaçamento, altura e propriedades de largura. */
+/* Spanish: El elemento footer se estiliza con tamaño de fuente, relleno, borde superior, alineación de texto, visualización de flexbox, espaciado, altura y propiedades de ancho. */
+/* German: Das footer-Element wird mit Schriftgröße, Polsterung, oberen Rand, Textausrichtung, Flexbox-Anzeige, Abstand, Höhe und Breiten-Eigenschaften gestaltet. */
+
+footer {
+  font-size: 14px;
+  padding: 10px;
+  border-top: 1px solid rgba(68, 63, 63, 0.479);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+}
+
+/* English: The obligations class styles the section with flexbox and spacing between elements. */
+/* Portuguese: A classe obligations estiliza a seção com flexbox e espaçamento entre os elementos. */
+/* Spanish: La clase obligations estiliza la sección con flexbox y espaciado entre los elementos. */
+/* German: Die Klasse obligations gestaltet den Abschnitt mit Flexbox und Abstand zwischen den Elementen. */
+
+.obligations {
+  display: flex;
+  gap: 30px;
+}
+
+/* English: Media query for screens with a max-width of 650px, adjusting font size, wrapping footer elements, adding spacing, and centering obligations. */
+/* Portuguese: Consulta de mídia para telas com largura máxima de 650px, ajustando o tamanho da fonte, envolvendo os elementos do rodapé, adicionando espaçamento e centralizando as obrigações. */
+/* Spanish: Consulta de medios para pantallas con un ancho máximo de 650px, ajustando el tamaño de la fuente, envolviendo los elementos del pie de página, agregando espaciado y centrando las obligaciones. */
+/* German: Medienabfrage für Bildschirme mit einer maximalen Breite von 650px, Anpassung der Schriftgröße, Umbruch der Footer-Elemente, Hinzufügen von Abstand und Zentrierung der Verpflichtungen. */
+
+@media screen and (max-width: 650px) {
+  .links {
+    font-size: 13px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  .obligations {
+    text-align: center;
+  }
+}
+
+/* English: Media query for screens with a max-width of 530px, adjusting content height, wrapping input groups, and setting specific widths and text alignment for various classes. */
+/* Portuguese: Consulta de mídia para telas com largura máxima de 530px, ajustando a altura do conteúdo, envolvendo grupos de entrada e definindo larguras específicas e alinhamento de texto para várias classes. */
+/* Spanish: Consulta de medios para pantallas con un ancho máximo de 530px, ajustando la altura del contenido, envolviendo grupos de entrada y estableciendo anchos específicos y alineación de texto para varias clases. */
+/* German: Medienabfrage für Bildschirme mit einer maximalen Breite von 530px, Anpassung der Inhaltsgröße, Umbruch der Eingabebereiche und Festlegung spezifischer Breiten und Textausrichtungen für verschiedene Klassen. */
+
+@media screen and (max-width: 530px) {
+  .content {
+    height: 100%;
+  }
+
+  .input-group {
+    flex-wrap: wrap;
+  }
+
+  .half-width-third,
+  .third-width,
+  .half-width {
+    width: 100%;
+    text-align: start;
+  }
+}

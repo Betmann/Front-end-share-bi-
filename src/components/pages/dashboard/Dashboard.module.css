@@ -1,0 +1,177 @@
+.ticketPageV3 {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  width: 250px;
+  background: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cardTicketUnity, .cardTicketUnity1, .cardTicketUnity2 {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.cardTicketUnity:hover, .cardTicketUnity1:hover, .cardTicketUnity2:hover {
+  transform: translateY(-5px);
+}
+
+.cardTicketUnityChild {
+  position: absolute;
+  height: 145.61%;
+  width: 4.02%;
+  top: 5.85%;
+  right: 95.98%;
+  bottom: -51.46%;
+  left: 0;
+  border-radius: 0 var(--br-7xs) var(--br-7xs) 0;
+  background-color: var(--vermelho-bosch-padrao);
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+
+
+.div {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.loremIpsumPipip {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.daviLimaPtcvoLa {
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.rectangleParent {
+  display: flex;
+  align-items: center;
+}
+
+.groupItem {
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.ready {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.checkmarkBoldIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.dashboardCappt {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.dashboardCappt:hover {
+  color: #007bff;
+}
+
+.ticketDetails {
+  font-size: 16px;
+  color: #333;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.formArea {
+  top: 140px;
+  left: 223px;
+  border-radius: 10px;
+  width: 1271px;
+  height: 713px;
+}
+.buttonText {
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.buttonText:hover {
+  background: #0056b3;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .ticketPageV3 {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .mainContent {
+    width: 100%;
+  }
+
+  .dashboardCappt {
+    font-size: 20px;
+  }
+
+  .tickets {
+    font-size: 18px;
+  }
+}

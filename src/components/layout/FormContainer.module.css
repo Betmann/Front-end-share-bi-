@@ -1,0 +1,332 @@
+.formContainerChild {
+  width: 1348px;  /* Sets the width of the form container child */
+  height: auto;  /* Allows the height to adjust automatically based on content */
+  position: relative;  /* Positions the element relative to its normal position */
+  border-radius: var(--br-5xs);  /* Sets the border radius using a variable */
+  background-color: var(--schemes-primary-background-major-accent-enabled-front-default);  /* Sets the background color using a variable */
+  box-shadow: var(--sombra-card);  /* Applies a box shadow using a variable */
+  display: none;  /* Hides the element */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.question {
+  margin: 0;  /* Removes default margin */
+  position: relative;  /* Positions the element relative to its normal position */
+  font-size: inherit;  /* Inherits font size from parent */
+  font-weight: 400;  /* Sets font weight to normal */
+  font-family: inherit;  /* Inherits font family from parent */
+  display: inline-block;  /* Displays the element as an inline block */
+  min-width: 103px;  /* Sets minimum width */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.questionTitleArea {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  display: flex;  /* Uses flexbox layout */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  align-items: flex-start;  /* Aligns flex items to the start */
+  justify-content: center;  /* Centers flex items horizontally */
+  padding: 0 0 0 var(--padding-7xl);  /* Adds padding using a variable */
+}
+
+.subject {
+  width: 513.1px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  display: inline-block;  /* Displays the element as an inline block */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.subjectPlaceholderChild {
+  height: 49px;  /* Sets the height */
+  width: 899px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  display: none;  /* Hides the element */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.enterTheSubject {
+  width: 513.1px;  /* Sets the width */
+  border: 0;  /* Removes the border */
+  outline: 0;  /* Removes the outline */
+  font-family: var(--standard-title);  /* Sets the font family using a variable */
+  font-size: var(--font-size-sm);  /* Sets the font size using a variable */
+  background-color: transparent;  /* Makes the background color transparent */
+  height: 17px;  /* Sets the height */
+  position: relative;  /* Positions the element relative to its normal position */
+  color: var(--color-gray);  /* Sets the text color */
+  text-align: left;  /* Aligns the text to the left */
+  display: inline-block;  /* Displays the element as an inline block */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+  padding: 0;  /* Removes padding */
+  z-index: 2;  /* Sets the z-index to 2 */
+}
+
+.subjectInputArea,
+.subjectPlaceholder {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  display: flex;  /* Uses flexbox layout */
+  align-items: flex-start;  /* Aligns flex items to the start */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.subjectPlaceholder {
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  padding: var(--padding-base) var(--padding-2xl);  /* Adds padding using variables */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.subjectInputArea {
+  flex-direction: column;  /* Sets the direction of flex items to column */
+  gap: var(--gap-5xs);  /* Adds gap between flex items using a variable */
+}
+
+.dateOfTheQuestion {
+  flex: 1;  /* Allows the element to grow and fill the space */
+  position: relative;  /* Positions the element relative to its normal position */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.descriptionArea,
+.subjectArea {
+  display: flex;  /* Uses flexbox layout */
+  align-items: flex-start;  /* Aligns flex items to the start */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+}
+
+.descriptionArea {
+  width: 188.7px;  /* Sets the width */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  padding: 0 var(--padding-12xs);  /* Adds padding using a variable */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+}
+
+.subjectArea {
+  flex: 1;  /* Allows the element to grow and fill the space */
+  flex-direction: column;  /* Sets the direction of flex items to column */
+  gap: var(--gap-28xl);  /* Adds gap between flex items using a variable */
+  min-width: 584px;  /* Sets the minimum width */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.dateOfTheQuestion {
+  width: 197.7px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  display: inline-block;  /* Displays the element as an inline block */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.dateInputAreaChild {
+  height: 49px;  /* Sets the height */
+  width: 250px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  display: none;  /* Hides the element */
+}
+
+.ddMm {
+  width: 197.7px;  /* Sets the width */
+  border: 0;  /* Removes the border */
+  outline: 0;  /* Removes the outline */
+  font-family: var(--titulo-padrao);  /* Sets the font family using a variable */
+  font-size: var(--font-size-sm);  /* Sets the font size using a variable */
+  background-color: transparent;  /* Makes the background color transparent */
+  height: 17px;  /* Sets the height */
+  position: relative;  /* Positions the element relative to its normal position */
+  color: var(--color-gray);  /* Sets the text color */
+  text-align: left;  /* Aligns the text to the left */
+  display: inline-block;  /* Displays the element as an inline block */
+  padding: 0;  /* Removes padding */
+  z-index: 2;  /* Sets the z-index to 2 */
+}
+
+.dateInputArea {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  padding: var(--padding-base) var(--padding-2xl);  /* Adds padding using variables */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.dateArea,
+.dateInputArea,
+.questionInputs {
+  display: flex;  /* Uses flexbox layout */
+  align-items: flex-start;  /* Aligns flex items to the start */
+}
+
+.dateArea {
+  width: 250px;  /* Sets the width */
+  flex-direction: column;  /* Sets the direction of flex items to column */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  gap: var(--gap-5xs);  /* Adds gap between flex items using a variable */
+}
+
+.questionInputs {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  flex-wrap: wrap;  /* Allows flex items to wrap */
+  justify-content: center;  /* Centers flex items horizontally */
+  gap: var(--gap-43xl);  /* Adds gap between flex items using a variable */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.observationsChild {
+  height: 170px;  /* Sets the height */
+  width: 1211px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  display: none;  /* Hides the element */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.Insertproperly {
+  width: 760px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  display: inline-block;  /* Displays the element as an inline block */
+  flex-shrink: 0;  /* Prevents the element from shrinking */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.observations,
+.questionDetails {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  display: flex;  /* Uses flexbox layout */
+  align-items: flex-start;  /* Aligns flex items to the start */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+}
+
+.observations {
+  border-radius: var(--br-8xs);  /* Sets the border radius using a variable */
+  border: 1px solid var(--color-gray);  /* Sets a solid gray border */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  padding: var(--padding-base) var(--padding-2xl);  /* Adds padding using variables */
+  min-height: 170px;  /* Sets the minimum height */
+  z-index: 1;  /* Sets the z-index to 1 */
+  color: var(--color-gray);  /* Sets the text color */
+}
+
+.questionDetails {
+  flex-direction: column;  /* Sets the direction of flex items to column */
+  gap: var(--gap-5xs);  /* Adds gap between flex items using a variable */
+  font-size: var(--font-size-sm);  /* Sets the font size using a variable */
+  color: var(--preto);  /* Sets the text color */
+}
+
+.label {
+  width: 75px;  /* Sets the width */
+  position: relative;  /* Positions the element relative to its normal position */
+  font-size: var(--font-size-base);  /* Sets the font size using a variable */
+  line-height: 24px;  /* Sets the line height */
+  font-family: var(--titulo-padrao);  /* Sets the font family using a variable */
+  color: var(--schemes-primary-background-major-accent-enabled-front-default);  /* Sets the text color using a variable */
+  text-align: center;  /* Aligns the text to the center */
+  display: inline-block;  /* Displays the element as an inline block */
+  min-width: 75px;  /* Sets the minimum width */
+}
+
+.buttonText {
+  cursor: pointer;  /* Changes the cursor to pointer on hover */
+  border: 0;  /* Removes the border */
+  padding: var(--padding-xs) var(--padding-base) var(--padding-4xs);  /* Adds padding using variables */
+  background-color: var(--schemes-primary-background-major-accent-enabled-fill-default);  /* Sets the background color using a variable */
+  overflow: hidden;  /* Hides overflow content */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  z-index: 1;  /* Sets the z-index to 1 */
+}
+
+.buttonText:hover {
+  background-color: var(--color-deepskyblue);  /* Changes the background color on hover */
+}
+
+.buttonArea,
+.buttonText,
+.formContainer {
+  display: flex;  /* Uses flexbox layout */
+  align-items: flex-start;  /* Aligns flex items to the start */
+}
+
+.buttonArea {
+  align-self: stretch;  /* Stretches the element to fit its container */
+  flex-direction: row;  /* Sets the direction of flex items to row */
+  justify-content: flex-end;  /* Justifies flex items to the end */
+}
+
+.formContainer {
+  width: 1348px;  /* Sets the width */
+  border-radius: var(--br-5xs);  /* Sets the border radius using a variable */
+  background-color: var(--schemes-primary-background-major-accent-enabled-front-default);  /* Sets the background color using a variable */
+  box-shadow: var(--sombra-card);  /* Applies a box shadow using a variable */
+  flex-direction: column;  /* Sets the direction of flex items to column */
+  justify-content: flex-start;  /* Justifies flex items to the start */
+  padding: 5% 10%;  /* Adds padding */
+  box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  gap: var(--gap-85xl-5);  /* Adds gap between flex items using a variable */
+  max-width: 100%;  /* Sets the maximum width to 100% */
+  text-align: left;  /* Aligns the text to the left */
+  font-size: var(--titulo-padrao-size);  /* Sets the font size using a variable */
+  color: var(--color-dimgray);  /* Sets the text color */
+  font-family: var(--titulo-padrao);  /* Sets the font family using a variable */
+}
+
+@media screen and (max-width: 1200px) {
+  .formContainer {
+    padding-left: var(--padding-16xl);  /* Adds padding to the left using a variable */
+    padding-right: var(--padding-14xl);  /* Adds padding to the right using a variable */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .subjectArea {
+    min-width: 100%;  /* Sets the minimum width to 100% */
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .questionInputs {
+    gap: var(--gap-12xl);  /* Adds gap between flex items using a variable */
+  }
+
+  .formContainer {
+    gap: var(--gap-33xl);  /* Adds gap between flex items using a variable */
+    padding-top: var(--padding-9xl);  /* Adds padding to the top using a variable */
+    padding-bottom: var(--padding-30xl);  /* Adds padding to the bottom using a variable */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pergunta {
+    font-size: var(--font-size-lgi);  /* Sets the font size using a variable */
+  }
+
+  .subjectArea {
+    gap: var(--gap-4xl);  /* Adds gap between flex items using a variable */
+  }
+
+  .questionInputs {
+    gap: var(--gap-mini);  /* Adds gap between flex items using a variable */
+  }
+
+  .formContainer {
+    gap: var(--gap-7xl);  /* Adds gap between flex items using a variable */
+  }
+}

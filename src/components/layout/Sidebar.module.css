@@ -1,0 +1,27 @@
+.sidebar {
+    background-color: #2c2929; /* Background color of the sidebar. */
+    padding: 10px; /* Padding inside the sidebar. */
+    min-height: 100%; /* Minimum height to fill the viewport. */
+    width: 60px; /* Fixed width of the sidebar. */
+    top: 0; /* Positioning at the top. */
+    left: 0; /* Positioning at the left. */
+    transition: transform 0.3s ease; /* Smooth transition effect for transformations. */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Removing default list styling. */
+    padding: 0; /* Removing padding from the list. */
+    color: rgb(255, 251, 251); /* Font color of the list items. */
+    height: 100%; /* Height of the list to fill the sidebar. */
+    border-radius: 20px; /* Rounded corners for the list container. */
+    text-align: center; /* Centering text inside the list. */
+}
+
+.sidebar li {
+    margin-bottom: 20px; /* Space between list items. */
+    cursor: pointer; /* Changing cursor to pointer on hover. */
+}
+
+.sidebar li:hover {
+    background-color: #000000; /* Background color of list items on hover. */
+}
